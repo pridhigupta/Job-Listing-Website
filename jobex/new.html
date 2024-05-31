@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Click Demo</title>
+<style>
+  img {
+    cursor: pointer;
+    max-width: 100px;
+  }
+</style>
+<script>
+  function changeContent(imageSrc, titleText) {
+    document.getElementById('mainImage').src = imageSrc;
+    document.getElementById('pageTitle').textContent = titleText;
+  }
+</script>
+</head>
+<body>
+<h1 id="pageTitle">Click an Image</h1>
+<img src="pic1.jpeg" alt="Image 1" onclick="changeContent('pic1.jpeg', 'Title 1')">
+<img src="pic2.jpeg" alt="Image 2" onclick="changeContent('pic2.jpeg', 'Title 2')">
+<img src="image3.jpg" alt="Image 3" onclick="changeContent('image3.jpg', 'Title 3')">
+<img src="image4.jpg" alt="Image 4" onclick="changeContent('image4.jpg', 'Title 4')">
+<img src="image5.jpg" alt="Image 5" onclick="changeContent('image5.jpg', 'Title 5')">
+<img src="image6.jpg" alt="Image 6" onclick="changeContent('image6.jpg', 'Title 6')">
+<img src="image7.jpg" alt="Image 7" onclick="changeContent('image7.jpg', 'Title 7')">
+<img src="image8.jpg" alt="Image 8" onclick="changeContent('image8.jpg', 'Title 8')">
+<img src="image9.jpg" alt="Image 9" onclick="changeContent('image9.jpg', 'Title 9')">
+<img src="image10.jpg" alt="Image 10" onclick="changeContent('image10.jpg', 'Title 10')">
+<br>
+<img id="mainImage" src="image1.jpg" alt="Main Image" style="max-width: 400px;">
+</body>
+</html>

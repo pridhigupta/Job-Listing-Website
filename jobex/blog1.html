@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+<body>
+    <h2>ADD A BLOG POST</h2>
+    <form>
+        <label for="btitle" >Blog Title: </label>
+        <input type="text" id="btitle" name="title"><br><br>
+        <label for="aname" >Author Name: </label>
+        <input type="text" id="aname" name="aname"><br><br>
+        <label for="dates">Date of Submit: </label>
+        <input type="date" id="dates" name="date" ><br><br>
+        <label for="desc">Description: </label>
+        <textarea id="desc" name="des" rows="6" columns="16"></textarea><br><br>
+        <label for="cat">Category: </label>
+        <select id="cat" name="cate" required>
+            <option value="Technology">Technology</option>
+            <option value="Drones">Drones</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Business">Business</option>
+        </select><br><br>
+        <label for="img">Image URL: </label>
+        <input type="url" id="img" name="imglink">
+        <br><br><br>
+        <button type="submit" value="Submit" id="submit" onclick="passValue()">Submit</button>
+    </form>
+</body>
+<script>
+    // var submitButton = document.getElementById("submit")
+    // submitButton.addEventListener("click", function(e){
+    //     e.preventDefault();
+    function passValue(){
+        var title = document.getElementById('btitle').value
+        var name = document.getElementById('aname').value
+        var date = document.getElementById('dates').value
+        var des = document.getElementById('desc').value
+        var cate = document.getElementById('cat').value
+        var imglink = document.getElementById('img').value
+    
+    localStorage.setItem("btitleValue",title)
+    localStorage.setItem("nameValue",name)
+    localStorage.setItem('dateValue',date)
+    localStorage.setItem('desValue',des)
+    localStorage.setItem('cateValue',cate)
+    localStorage.setItem('imglinkValue',imglink)
+
+    return false;
+    }
+    // })
+    // blog ={title:title, name:name,date:date,des:des,cate:cate,imglink:imglink}
+    // localStorage.setItem('blog',JSON.stringify(blog))
+    // blog=[]
+    // windown.onload = function(){
+
+    // }
+    
+
+</script>
+</html>

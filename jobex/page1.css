@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Helvetica", sans-serif;
+}
+nav{
+    width: 100%;
+    color: white;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+.logo{
+    float: left;
+    padding:  15px 20px;
+}
+.logo h1{
+    font-size: 40px;
+}
+#ab{
+    color: #14a077;
+    font-size: 45px;
+}
+.top-menu{
+    float: left;
+    padding: 30px 0px;
+}
+.top-menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-menu a:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.share{
+    float: right;
+    padding: 30px 20px;
+}
+.share:hover{
+    cursor: pointer;
+    color: #14a077;
+}
+.font{
+    color: #939096;
+    opacity: .7;
+    font-size: 13px;
+}
+.socio{
+    width: 100%;       
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 100px;
+}
+.pict{
+    width: 70%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(225, 218, 218) ;
+    margin: 20px 0px 30px 40px;
+}
+.sec1 {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(225, 218, 218) ;
+}
+.sec1 p{
+    opacity: .5;
+    font-size: 13px;
+}
+.hea{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(225, 218, 218) ;
+}
+.hea h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.im1{
+    width: 100%;
+    padding: 20px 10px;
+}
+.im1 img{
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.conte1{
+    width: 100%;
+    padding: 10px;
+    opacity: .7;
+    line-height: 1.7;
+    border-bottom: 1px solid rgb(225, 218, 218) ;
+}
+.des{
+    margin: 10px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 4px solid #14a077;
+    background: #eeeeee;
+    border-radius: 4.5px;
+}
+.conte1 button{
+    padding: 4px 12px;
+    background:#fff;
+    border-radius: 4px;
+    border: 1px solid #bab6b6;
+    color: black;
+}
+.conte1 button:hover{
+    border: 0;
+    color: #fff;
+    background: #14a077;
+}
+.ic{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(225, 218, 218) ;
+}
+.ic img{
+    width: 4%;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.link{
+    width: 100.2%;
+    padding: 40px 10px;
+    display: inline-block;
+    font-size: 12px;
+    color: #939096;
+    border: 1px solid white;
+    background-color: #fff;
+    margin-left: -1px;
+}
+.link .new{
+    float: right;
+    margin-top: -47.5px;
+    text-align: right;
+    font-weight: 600;
+}
+.link .old{
+    font-weight: 600;
+}
+.old .na, .new .na{
+    font-size: 14px;
+    font-weight: 400;
+}
+.new .na:hover, .old .na:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.tips{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border-top: 1px solid rgb(225, 218, 218) ;
+    border-bottom: 1px solid rgb(225, 218, 218) ;
+}
+.tips .ti-img{
+    width: 10%;
+    float: left;
+}
+.ti-img img{
+    width: 100%;
+    height: 90px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.ti-cont{
+    width: 80%;
+    float: left;
+    padding: 2px 15px;
+    line-height: 1.8;
+}
+.ti-cont h3{
+    font-weight: 600;
+}
+.ti-cont span{
+    color: #14a077;
+}
+.ti-cont p{
+    font-size: 14px;
+    opacity: .7;
+}
+.white
+{
+    width: 100.5%;
+    background: #fff;
+    padding: 20px;
+    margin: -4px;
+}
+.like-head{
+    width: 100%;
+    padding: 10px;
+    color: #14a077;
+    letter-spacing: 1px;
+    border-top: 1px solid rgb(225, 218, 218) ;
+}
+.like{
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid rgb(225, 218, 218) ;
+}
+.like .pos{
+    margin: 10px;
+    width: 31%;
+    display: inline-block;
+}
+.pos img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.pos p{
+    padding: 8px 0px;
+}
+.pos img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+.pos p:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.side{
+    position: sticky;
+    top: 0;
+    padding-right: 30px;
+    width: 25%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+.side h2{
+    color: #14a077;
+    font-size: 21px;
+}
+.social{
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px 15px;
+    border-radius: 4px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.social hr{
+    margin: 5px 0px 15px;
+}
+.icon{
+    width: 100%;
+}
+.icon img{
+    width: 17.3%;
+    margin: 2.5px;
+    display: inline-block;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+}
+.popular{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 40px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.popular hr{
+    margin: 5px 0px 15px;
+}
+.popular .posts
+{
+    width: 100%;
+    padding: 5px;
+}
+.popular .posts .pic
+{
+    width: 26%;
+    height: 65px;
+    display: inline-block;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.popular .posts .name
+{
+    width: 72%;
+    padding: 5px;
+    float: right;
+}
+.pic img:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.posts .name:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.subs{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 40px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.subs hr{
+    margin: 5px 0px 15px;
+}
+iframe{
+    width: 100%;
+}
+.cate{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 10px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.cate p{
+    padding: 8px;
+    opacity: .7;
+}
+.cate p:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.cate hr{
+    margin: 5px 0px 15px;
+}
+.end{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    background-color: black;
+}
+.ico1{
+    width: 20%;
+    float: left;
+}
+.ico1 h1{
+    font-size: 50px;
+    color: #fff;
+    padding-left: 50px;
+}
+.cont1{
+    width: 50%;
+    float: left;
+    margin-left: -30px;
+}
+.cont1 p{
+    color: #7d7d7d;
+    font-size: 15px;
+    margin: 5px;
+    opacity: .7;
+}
+.picu{
+    width: 22%;
+    height: 41px;
+    float: right;
+}
+.picu img{
+    width: 13%;
+    height: 100%;
+    padding: 4px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.end1{
+    width: 100%;
+    float: right;
+    background-color: rgb(24, 23, 23);
+    padding: 15px;
+    margin-top: -5px;
+}
+.end1 .con{
+    width: 22%;
+    color: #fff;
+    float: right;
+    margin-right: -15px;
+}
+.con li{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.con li:hover{
+    cursor: pointer;
+    color: #14a077;
+}

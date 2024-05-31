@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    data = [{title:'Bitcoin',
+    desc: 'description',
+    author: 'Name of author',
+    publised_on: '02/02/2023',
+    img: 'pic1.jepg'},
+    {title:'Bitcoin',
+    desc: 'description',
+    author: 'Name of author',
+    publised_on: '02/02/2023',
+    img: 'pic1.jepg'},
+    {title:'Bitcoin',
+    desc: 'description',
+    author: 'Name of author',
+    publised_on: '02/02/2023',
+    img: 'pic1.jepg'},
+    {title:'Bitcoin',
+    desc: 'description',
+    author: 'Name of author',
+    publised_on: '02/02/2023',
+    img: 'pic1.jepg'},
+    {title:'Bitcoin',
+    desc: 'description',
+    author: 'Name of author',
+    publised_on: '02/02/2023',
+    img: 'pic1.jepg'}]
+    
+    window.onload = function(){
+        str = window.location.search
+        id = str.split('=')[1]
+        document.querySelector('img').src = data[id].img
+        document.querySelector('p').innerHTML = data[id].desc
+        document.querySelector('label').innerHTML = data[id].title
+}
+</script>
+<body>
+    <img src="pic10.webp">
+</body>
+</html>

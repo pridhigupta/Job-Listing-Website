@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Helvetica", sans-serif;
+}
+header
+{    
+    background-size: cover;
+    padding: 10px;
+    height: 720px;
+    background-image: linear-gradient(180deg, rgba(10, 10, 30, 0.8), rgb(10, 10, 30, 0.5)), url('images6.jpg');
+    color: #ffffff;
+    font-family: "Helvetica", sans-serif;
+}
+.top-menu{
+    display: inline-block;
+}
+.top-menu li{
+    display: inline-block;
+    margin: 0px 25px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-menu a:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.logo{
+    margin: 6px;                      
+    display: inline-block;
+}
+.logo h1{
+    margin: 2px;
+    font-size: 40px;
+}
+#ab{
+    color: #14a077;
+    font-size: 40px;
+}
+.share{
+    margin: 30px 20px 0px 0px;
+    float: right;
+}
+.share:hover{
+    cursor: pointer;
+    color: #14a077;
+}
+.info-area{
+    width: 50vw;
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    margin: 40px 20px 40px;
+}
+.info-area h1{
+    color: #ecfaf5;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+.input-form input{
+    height:48px;
+    width:620px;
+    margin: 0;
+    padding : 0 10px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3px 0 0 3px;
+}
+.input-form button{
+    height:48px;
+    width: 110px;
+    background-color: #14a077;
+    color: #fff;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -5px;
+}
+.input-form button:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.items li{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: -40px;
+    margin-right: 60px;
+}
+.items li:hover{
+    color: #14a077;
+}
+.resouces{
+    width: 100%;
+    height: 340px;
+    padding:20px;
+}
+.jobs
+{
+    background: #ececec;;
+    width: 18.4%;
+    height: 46%;
+    display:inline-block;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+}
+.jobs img{
+    visibility: hidden;
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.jobs .cont{
+    position: absolute; 
+    border-radius: 10px;
+    top:0;
+    bottom: 0; 
+    width: 100%; 
+    padding: 20px; 
+}
+.jobs h2{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.jobs p{
+    margin-bottom: 15px;
+    color: #64666c;
+    font-size: 16px;
+}
+.jobs a{
+    color: #14a077;
+    text-decoration: none;
+    font-size: 16px;
+}
+.jobs:hover img{
+    visibility: visible;
+    cursor: pointer;
+}
+.jobs:hover {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+}
+.jobs:hover p, .jobs:hover h2{
+    color: #ffffff;
+}
+.images{     
+    width: 100%;       
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sec{
+    width: 23.4%;
+    height: 300px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+.sec img{
+    width: 100%;
+    height: 70%;
+}
+.sec p{
+    opacity: .8;
+    margin: 10px 0px;
+}
+.sec h3{
+    margin: 8px 0px;
+}
+.sec img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+.sec h3:hover {
+    color: #14a077;
+    cursor: pointer;
+}
+.font{
+    color: #939096;
+    font-size: 11px;
+}
+.socio{
+    width: 100%;       
+    box-sizing: border-box;
+}
+.pict{
+    width: 74%;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.sec1{
+    width: 31.1%;
+    height: 360px;
+    padding: 8px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid rgb(225, 218, 218) ;
+}
+.sec1 img{
+    width: 100%;
+    height: 65%;
+}
+.sec1 p{
+    opacity: .8;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.sec1 h2{
+    margin: 10px 0px;
+}
+.sec1 img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+.sec1 h2:hover {
+    color: #14a077;
+    cursor: pointer;
+}
+.side{
+    padding-right: 30px;
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+}
+.side h2{
+    color: #14a077;
+    font-size: 21px;
+}
+.social{
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px 15px;
+    border-radius: 4px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.social hr{
+    margin: 5px 0px 15px;
+}
+.icon{
+    width: 100%;
+}
+.icon img{
+    width: 17.3%;
+    margin: 2.5px;
+    display: inline-block;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+}
+.popular{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 40px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.popular hr{
+    margin: 5px 0px 15px;
+}
+.popular .posts
+{
+    width: 100%;
+    padding: 5px;
+}
+.posts .pic
+{
+    width: 26%;
+    height: 65px;
+    display: inline-block;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.posts .name
+{
+    width: 72%;
+    padding: 5px;
+    float: right;
+}
+.pic img:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.posts p:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.subs{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 40px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.subs hr{
+    margin: 5px 0px 15px;
+}
+iframe{
+    width: 100%;
+}
+.cate{
+    width: 100%;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 40px 0px;
+    box-shadow: .5px .5px 6px #bab6b6;
+}
+.cate p{
+    padding: 8px;
+    opacity: .7;
+}
+.cate p:hover{
+    color: #14a077;
+    cursor: pointer;
+}
+.cate hr{
+    margin: 5px 0px 15px;
+}
+.end{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    background-color: black;
+}
+.ico1{
+    width: 20%;
+    float: left;
+}
+.ico1 h1{
+    font-size: 50px;
+    color: #fff;
+    padding-left: 50px;
+}
+.cont1{
+    width: 50%;
+    float: left;
+    margin-left: -30px;
+}
+.cont1 p{
+    color: #7d7d7d;
+    font-size: 15px;
+    margin: 5px;
+    opacity: .7;
+}
+.picu{
+    width: 22%;
+    height: 41px;
+    float: right;
+}
+.picu img{
+    width: 13%;
+    height: 100%;
+    padding: 4px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.end1{
+    width: 100%;
+    float: right;
+    background-color: rgb(24, 23, 23);
+    padding: 15px;
+    margin-top: -5px;
+}
+.end1 .con{
+    width: 22%;
+    color: #fff;
+    float: right;
+    margin-right: -15px;
+}
+.con li{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.con li:hover{
+    cursor: pointer;
+    color: #14a077;
+}
